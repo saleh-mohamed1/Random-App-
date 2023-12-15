@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.button-des{
+    text-align: center;
+}
+.all-des{
+    background: linear-gradient(145deg, #d5d5d5, #fefefe);
+}
+.h-1{
+    position: relative;
+}
+
+.h-1::after{
+    content: " ";
+    position: absolute;
+    border-top: 5px solid black;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+.h-1::before{
+    content: " ";
+    position: absolute;
+    border-top: 5px solid black;
+    right: 0;
+    bottom: 40%;
+    width: 50%;
+}
+.new-disgn{
+    text-align: center;
+}
+
+span{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
